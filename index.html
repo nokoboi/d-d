@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <title>D&D</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.jpg">
+        <nav>
+            <div class="enlaces">
+                <a href="#classes">Clases</a>
+                <a href="#monsters">Monstruos</a>
+                <a href="#experience">Experiencia</a>
+            </div>
+        </nav>
+        <div class="formulario">
+            <form action="">
+                <div>
+                    <label class="usuario" for="nombre">Usuario: </label>
+                    <input type="text" id="nombre" name="nombre" required minlenght="2">
+                </div>
+                <div>
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" id="contraseña" name="contraseña" required>
+                </div>
+                <button type="submit" class="buton">Enviar</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <details open id="classes">
+            <summary class="negrita">
+                <h2>Clases</h2>
+            </summary>
+            <section>
+                <details open>
+                    <summary class="negrita">Bárbaro</summary>
+                    <img class="imagen" src="img/barbaro.jpg" alt="logo de bárbaro de D&D">
+                    <p>
+                        Para algunos, su rabia brota de la comunión con espíritus de animales salvajes. Otros recurren
+                        a
+                        su hirviente reserva de ira frente a un mundo lleno de dolor. Para los bárbaros, la furia es un
+                        poder que no sólo les proporciona un frenesí ciego en la batalla, sino también
+                        extraordinarios
+                        reflejos, resistencia y proezas de fuerza.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+
+                    <ul>
+                        <li>(a) un hacha a dos manos o (b) cualquier arma cuerpo a cuerpo marcial;</li>
+                        <li>(a) dos hachas de mano o (b) cualquier arma sencilla;</li>
+                        <li>Un paquete de explorador y cuatro jabalinas.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d12
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span> Fuerza 13
+                    </p>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Bardo</summary>
+                    <img class="imagen" src="img/bardo.jpg" alt="logo de bardo de D&D">
+                    <p>
+                        Ya sea un erudito, un poeta o un canalla, un bardo teje su magia a través de sus palabras y su
+                        música para inspirar a los aliados, desmoralizar a los enemigos, manipular mentes, crear
+                        ilusiones e
+                        incluso sanar heridas.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+
+
+                    <ul>
+                        <li>(a) un estoque, (b) una espada larga o (c) cualquier arma sencilla;</li>
+                        <li>(a) un paquete de diplomático o (b) un paquete de artista;</li>
+                        <li>(a) un laúd o (b) cualquier otro instrumento musical;</li>
+                        <li>Armadura de cuero y una daga.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span> Carisma 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador puro
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros conocidos
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 9
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Carisma
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de bardo
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Brujo</summary>
+                    <img class="imagen" src="img/brujo.jpg" alt="logo de brujo de D&D">
+                    <p>
+                        Los brujos son buscadores del conocimiento que se encuentra escondido en el multiverso. A través
+                        de
+                        pactos hechos con seres poderosos de poder sobrenatural, los brujos desatan efectos mágicos
+                        tanto
+                        sutiles como espectaculares y recolectan secretos arcanos para potenciar su propio poder.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una ballesta ligera y 20 virotes o (b) cualquier arma sencilla;</li>
+                        <li>(a) un saquito de componentes o (b) un canalizador arcano;</li>
+                        <li>(a) un paquete de erudito o (b) un paquete de explorador de mazmorras;</li>
+                        <li>Armadura de cuero, cualquier arma sencilla y dos dagas</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span> Carisma 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador puro
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros conocidos
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 5
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Carisma
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Brujo
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Clérigo</summary>
+                    <img class="imagen" src="img/clerigo.jpg" alt="logo de clerigo de D&D">
+                    <p>
+                        Los clérigos son intermediarios entre el mundo mortal y los distantes planos divinos. Tan
+                        diferentes entre ellos como los dioses a los que sirven, los clérigos se esfuerzan por
+                        personificar las obras de sus deidades. No son sacerdotes ordinarios, un clérigo se encuentra
+                        imbuido de magia divina.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una maza o (b) un martillo de guerra (si eres competente);</li>
+                        <li>(a) una cota de escamas, (b) una armadura de cuero o (c) una cota de malla (si eres
+                            competente);</li>
+                        <li>(a) una ballesta ligera y 20 virotes o (b) cualquier arma sencilla;</li>
+                        <li>(a) un paquete de sacerdote o (b) un paquete de explorador;</li>
+                        <li>un escudo y un símbolo sagrado.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span> Sabiduria 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador mixto
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros conocidos
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 9
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Sabiduria
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Clérigo
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Druida</summary>
+                    <img class="imagen" src="img/druida.jpg" alt="logo de druida de D&D">
+                    <p>
+                        Ya sea invocando a las fuerzas elementales o emulando a las criaturas del mundo animal, los
+                        druidas son la personificación de la resistencia, astucia y furia de la naturaleza. Dicen no
+                        tener un dominio sobre la naturaleza. En lugar de eso, se ven como una extensión de la voluntad
+                        indomable de la misma.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) un escudo de madera o (b) cualquier arma sencilla;</li>
+                        <li>(a) una cimitarra o (b) cualquier arma cuerpo a cuerpo sencilla;</li>
+                        <li>armadura de cuero, un paquete de explorador y un canalizador druídico.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span> Sabiduria 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador puro
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros preparados
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 9
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Sabiduria
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Druida
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Explorador</summary>
+                    <img class="imagen" src="img/explorador.jpg" alt="logo de explorador de D&D">
+                    <p>
+                        Lejos del bullicio de las ciudades y pueblos, más allá de las defensas que mantienen a las
+                        granjas más lejanas protegidas de los terrores de la naturaleza, en medio de tupidos bosques sin
+                        caminos y a través de enormes y vacías llanuras, los exploradores mantienen su interminable
+                        guardia.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una cota de escamas o (b) una armadura de cuero;</li>
+                        <li>(a) dos espadas cortas o (b) dos armas cuerpo a cuerpo sencillas;</li>
+                        <li>(a) un paquete de explorador de mazmorras o (b) un paquete de explorador;</li>
+                        <li>Un arco largo y una aljaba con 20 flechas.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d10
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span>Destreza y Sabiduria 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador mixto
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros conocidos
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 5
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> No
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Sabiduria
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Explorador
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Guerrero</summary>
+                    <img class="imagen" src="img/guerrero.jpg" alt="logo de guerrero de D&D">
+                    <p>
+                        Todos los guerreros comparten un dominio magistral de las armas y armaduras, y un exhaustivo
+                        conocimiento de las habilidades del combate. Además, están muy relacionados con la muerte, tanto
+                        repartiéndola como mirándola fijamente, desafiantes.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una cota de malla o (b) una armadura de cuero, un arco largo y 20 flechas;</li>
+                        <li>(a) un arma marcial y un escudo o (b) dos armas marciales;</li>
+                        <li>(a) una ballesta ligera y 20 virotes o (b) dos hachas de mano;</li>
+                        <li>(a) un paquete de explorador de mazmorras o (b) un paquete de explorador.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d10
+                    </p>
+                </details>
+            </section>
+
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Hechicero</summary>
+                    <img class="imagen" src="img/hechicero.jpg" alt="logo de hechicero de D&D">
+                    <p>
+                        Los hechiceros tienen una magia innata, conferida por una línea de sangre exótica, una
+                        influencia de otro mundo o la exposición a fuerzas cósmicas desconocidas. Uno no puede estudiar
+                        hechicería como quien estudia un lenguaje, más de lo que uno puede aprender a vivir una vida
+                        legendaria. Nadie elige la hechicería, el poder elige al hechicero.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una ballesta ligera y 20 virotes o (b) cualquier arma sencilla;</li>
+                        <li>(a) un saquito de componentes o (b) un canalizador arcano;</li>
+                        <li>(a) un paquete de explorador de mazmorras o (b) un paquete de explorador;</li>
+                        <li>Dos dagas</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d6
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span>Carisma 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador puro
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros conocidos
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 9
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Carisma
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Hechicero
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Mago</summary>
+                    <img class="imagen" src="img/mago.jpg" alt="logo de hechicero de D&D">
+                    <p>
+                        Los magos son los practicantes supremos de la magia, definidos y unidos como una clase por los
+                        hechizos que conjuran. A partir de la sutil onda de la magia que impregna el cosmos, los magos
+                        lanzan explosivos hechizos de fuego, arcos voltaicos, sutiles engaños y brutales formas de
+                        control mental.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) un bastón o (b) una daga;</li>
+                        <li>(a) un saquito de componentes o (b) un canalizador arcano;</li>
+                        <li>(a) un paquete de erudito o (b) un paquete de explorador;</li>
+                        <li>un libro de conjuros.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d6
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span>Inteligencia 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador puro
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros preparados
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 9
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> Sí
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Inteligencia
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de mago
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Monje</summary>
+                    <img class="imagen" src="img/monje.jpg" alt="logo de monje de D&D">
+                    <p>
+                        Cualquiera que sea su disciplina, los monjes están unidos por su habilidad para utilizar
+                        mágicamente la energía que corre por sus cuerpos. Ya sea canalizada en una impactante
+                        demostración de proeza marcial o en el sutil enfoque en la habilidad defensiva y la velocidad,
+                        esta energía impulsa todo lo que el monje hace.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) una espada corta o (b) cualquier arma sencilla;</li>
+                        <li>(a) un paquete de explorador de mazmorras o (b) un paquete de explorador;</li>
+                        <li>10 dardos.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Paladín</summary>
+                    <img class="imagen" src="img/paladin.jpg" alt="logo de paladin de D&D">
+                    <p>
+                        Sean cuales sean sus orígenes y sus misiones, los paladines están unidos por sus juramentos para
+                        luchar en contra de las fuerzas del mal. El juramento de un paladín es un lazo muy poderoso. Es
+                        una fuente de poder que convierte a un devoto guerrero en un campeón bendecido.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) un arma marcial y un escudo o (b) dos armas marciales;</li>
+                        <li>(a) cinco jabalinas o (b) cualquier arma cuerpo a cuerpo sencilla;</li>
+                        <li>(a) un paquete de sacerdote o (b) un paquete de explorador;</li>
+                        <li>Una cota de malla y un símbolo sagrado.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d10
+                    </p>
+
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span>Fuerza 13 y Carisma 13
+                    </p>
+
+                    <div class="magia">
+                        <details>
+                            <summary class="negrita">Magia</summary>
+                            <p>
+                                <span>Lanzador de conjuros:</span> Lanzador mixto
+                            </p>
+                            <p>
+                                <span>Lanzamiento de conjuros:</span> Mediante conjuros preparados
+                            </p>
+                            <p>
+                                <span>Nivel de conjuro máximo:</span> Nivel 5
+                            </p>
+                            <p>
+                                <span>Puede lanzar trucos:</span> No
+                            </p>
+                            <p>
+                                <span>Aptitud mágica:</span> Carisma
+                            </p>
+                            <p>
+                                <span>Lista de conjuros:</span> Conjuros de Paladín
+                            </p>
+                        </details>
+                    </div>
+                </details>
+            </section>
+            <hr>
+            <section>
+                <details open>
+                    <summary class="negrita">Pícaro</summary>
+                    <img class="imagen" src="img/picaro.jpg" alt="logo de picaro de D&D">
+                    <p>
+                        Los pícaros confían sus habilidades, el sigilo y las vulnerabilidades de sus oponentes para
+                        lograr sacar ventaja en cualquier situación. Tienen un don para encontrar la solución a
+                        prácticamente cualquier problema, demostrando un ingenio y versatilidad, que es la piedra
+                        angular de cualquier buen grupo de aventureros.
+                    </p>
+                    <p>
+                        <span class="negrita">Equipo:</span> Además del que obtengas por tu trasfondo, empiezas con el
+                        siguiente equipo:
+                    <ul>
+                        <li>(a) un estoque o (b) una espada corta;</li>
+                        <li>(a) un arco corto y una aljaba de 20 flechas o (b) una espada corta;</li>
+                        <li>(a) un paquete de ladrón, (b) un paquete de explorador de mazmorras o (c) un paquete de explorador;</li>
+                        <li>(a) una armadura de cuero, dos dagas y herramientas de ladrón.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="negrita">Origen:</span> Reglas básicas
+                    </p>
+
+                    <p>
+                        <span class="negrita">Puntos de Golpe:</span> d8
+                    </p>
+                    <p>
+                        <span class="negrita">Requisitos para multiclase:</span>Destreza 13
+                    </p>
+                </details>
+            </section>
+        </details>
+
+        <hr>
+
+        <details open>
+            <summary class="negrita">
+                <h2>Monstruos</h2>
+            </summary>
+            <section id="monsters">
+                <p>Aquí vamos a incluir una tabla con los peores enemigos con los que una party de jugadores pueden
+                    encontrarse</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Descripcion</th>
+                            <th>Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Goblin</td>
+                            <td>Los goblins son pequeños humanoides, egoístas y de negro corazón, que habitan en
+                                cavernas, minas abandonadas, mazmorras saqueadas y otros lugares lúgubres. Dado que son
+                                individualmente débiles, se reúnen en grandes grupos, de un tamaño que llega a ser
+                                apabullante. Ansían el poder y abusan constantemente de cualquier migaja de autoridad
+                                que consigan</td>
+                            <td>
+                                <img src="img/goblin.png" alt="imagen de un goblin">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Diablillo</td>
+                            <td>Los diablillos varían ampliamente en apariencia, abarcando un espectro de rasgos
+                                bestiales y formas grotescas, aunque la mayoría adopta la forma de humanoides alados de
+                                piel roja con rasgos protuberantes. Un imp típico mide solo 2 pies de altura, tiene una
+                                envergadura de 3 pies (90 cm) y pesa 10 libras (4,5 kg).</td>
+                            <td>
+                                <img src="img/diablillo.png" alt="imagen de un diablillo dungeons and dragons">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Bodak</td>
+                            <td>Los bodaks se parecían a su forma viviente hasta cierto punto, siendo aproximadamente
+                                del mismo tamaño y forma, aunque algunos los describieron como asexuados y musculosos.
+                                Más allá de eso, había una serie de diferencias que saltaban inmediatamente a la vista.
+                                La piel de un bodak era de un blanco o gris mortalmente pálido, sin pelo alguno. Más
+                                espeluznante aún era su rostro, que estaba retorcido en un rostro inhumano de pura
+                                locura y horror con ojos vacíos, de color blanco lechoso extendidos en forma de óvalos
+                                verticales.</td>
+                            <td>
+                                <img src="img/bodak.png" alt="imagen de un bodak">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Boneless</td>
+                            <td>Los deshuesados ​​eran un tipo de muertos vivientes exclusivos de Domains of Dread que
+                                surgían de uno o más cadáveres que carecían de esqueleto, típicamente cadáveres
+                                humanoides aunque cualquier criatura que naturalmente tuviera un esqueleto
+                                podía funcionar. No se conocía evidencia de que este tipo de no-muertos surgieran en
+                                Toril.</td>
+                            <td>
+                                <img src="img/boneless.png" alt="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Diablo óseo</td>
+                            <td>Los crueles inquisidores de los diablos son un híbrido abyecto entre un esqueleto
+                                recubierto de una fina piel blancuzca y un escorpión alado. Se mueven dando grandes
+                                saltos impulsados con sus alas, para caer después sobre sus víctimas con una sonrisa en
+                                sus esqueléticas caras, las garras relucientes y el aguijón lleno de veneno.</td>
+                            <td>
+                                <img src="img/oseo.png" alt="imagen de diablo oseo">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Beholder</td>
+                            <td>Beholder ("espectador" en español) es un monstruo de apariencia terrorífica. Su forma es
+                                similar a una esfera con un gran ojo en el centro de ella, dotado asimismo de una boca
+                                repleta de dientes afilados. Tiene diez extremidades o tentáculos, en los cuales se
+                                aloja un ojo por cada tallo flexible.</td>
+                            <td>
+                                <img src="img/beholder.png" alt="imagen de beholder">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Devourer</td>
+                            <td>Los devoradores eran demonios que actuaban al servicio de Orcus. Fueron utilizados para
+                                crear ejércitos de muertos vivientes consumiendo los cuerpos y almas de humanoides. Los
+                                demonios menores podrían ser promovidos a devoradores demostrando su valía ante Orcus.
+                            </td>
+                            <td><img src="img/devourer.png" alt="imagen de un devourer"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Falsa Hidra</td>
+                            <td>Nadie conoce realmente la verdadera naturaleza de la falsa hidra. Los estudiosos de todo
+                                el mundo se quedan con la duda sobre la verdadera naturaleza de estas criaturas. Lo que
+                                se sabe es que cuando su presencia se hace evidente, a menudo ya es demasiado tarde. La
+                                falsa hidra comienza su ciclo de vida como un bulto de carne blanca, que crece y se
+                                pudre en las profundidades de la tierra de un pueblo o ciudad. Con el tiempo, la pequeña
+                                masa carnosa, no más grande que un puño, crece hasta
+                                el tamaño de un niño pequeño y le brota una sola cabeza sobre un cuello prensil. Aquí es
+                                cuando la falsa hidra realmente comienza su ciclo. La
+                                falsa hidra se elimina de la mente de cada criatura sensible que puede escuchar su
+                                canción, lo que significa que todavía se puede ver, pero aquellos que la ven la olvidan
+                                inmediatamente incluso mientras miran directamente su rostro lunar.</td>
+                            <td>
+                                <img src="img/falsehydra.jpg" alt="falsa hidra">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Astral Dreadnought</td>
+                            <td>Los acorazados astrales eran criaturas enormes. Tenían un solo ojo grande sobre una boca
+                                grande llena de dientes afilados. En lugar de manos, tenían pinzas parecidas a
+                                cangrejos, que eran increíblemente fuertes y estaban forradas con bordes afilados y
+                                dentados. Todo su cuerpo estaba protegido por una capa de fuertes placas de armadura con
+                                púas, y la mitad inferior de su cuerpo era serpenteante. La leyenda decía que su mitad
+                                inferior era infinita y se extendía en la distancia.</td>
+                            <td>
+                                <img src="img/astral.png" alt="imagen de astral Dreadnought">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </details>
+
+        <details open>
+            <summary class="negrita">
+                <h2>Tabla de Experiencia</h2>
+            </summary>
+            <section id="experience">
+                
+                <table class="experiencia">
+                    <caption>Puntos de Experiencia por Nivel</caption>
+                    <thead>
+                        <tr>
+                            <th>Puntos de experiencia</th>
+                            <th>Nivel</th>
+                            <th>Bonificador por competencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>+2</td>
+                        </tr>
+                        <tr>
+                            <td>300</td>
+                            <td>2</td>
+                            <td>+2</td>
+                        </tr>
+                        <tr>
+                            <td>900</td>
+                            <td>3</td>
+                            <td>+2</td>
+                        </tr>
+                        <tr>
+                            <td>2700</td>
+                            <td>4</td>
+                            <td>+2</td>
+                        </tr>
+                        <tr>
+                            <td>6500</td>
+                            <td>5</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>14000</td>
+                            <td>6</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>23000</td>
+                            <td>7</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>34000</td>
+                            <td>8</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>48000</td>
+                            <td>9</td>
+                            <td>+4</td>
+                        </tr>
+                        <tr>
+                            <td>64000</td>
+                            <td>10</td>
+                            <td>+4</td>
+                        </tr>
+                        <tr>
+                            <td>85000</td>
+                            <td>11</td>
+                            <td>+4</td>
+                        </tr>
+                        <tr>
+                            <td>100000</td>
+                            <td>12</td>
+                            <td>+4</td>
+                        </tr>
+                        <tr>
+                            <td>120000</td>
+                            <td>13</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>140000</td>
+                            <td>14</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>165000</td>
+                            <td>15</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>195000</td>
+                            <td>16</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>225000</td>
+                            <td>17</td>
+                            <td>+6</td>
+                        </tr>
+                        <tr>
+                            <td>265000</td>
+                            <td>18</td>
+                            <td>+6</td>
+                        </tr>
+                        <tr>
+                            <td>305000</td>
+                            <td>19</td>
+                            <td>+6</td>
+                        </tr>
+                        <tr>
+                            <td>355000</td>
+                            <td>20</td>
+                            <td>+6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </details>
+    </main>
+</body>
+
+</html>
